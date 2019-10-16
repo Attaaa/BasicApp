@@ -18,11 +18,11 @@ class StudentAdapter(private val dataSet: Array<String>) : RecyclerView.Adapter<
     }
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
-        holder.textView.text= dataSet[position]
+//        holder.textView.text= dataSet[position]
     }
 
 
     class MyViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-        val textView : TextView = view.textName
+//        val textView : TextView = view.textName
     }
 }
